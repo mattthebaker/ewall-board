@@ -21186,7 +21186,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
 <part name="R11" library="resistor" deviceset="R-US_" device="R0805" value="47k"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -21690,6 +21689,36 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="P+73" library="supply1" deviceset="+5V" device=""/>
 <part name="P+74" library="supply1" deviceset="+5V" device=""/>
 <part name="P+75" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY133" library="supply2" deviceset="GND" device=""/>
+<part name="C89" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="+3V23" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY134" library="supply2" deviceset="GND" device=""/>
+<part name="C90" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="+3V24" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY135" library="supply2" deviceset="GND" device=""/>
+<part name="C91" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="SUPPLY136" library="supply2" deviceset="GND" device=""/>
+<part name="C92" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
+<part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY137" library="supply2" deviceset="GND" device=""/>
+<part name="C93" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="+3V26" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY138" library="supply2" deviceset="GND" device=""/>
+<part name="C94" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="+3V27" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY139" library="supply2" deviceset="GND" device=""/>
+<part name="C95" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="SUPPLY140" library="supply2" deviceset="GND" device=""/>
+<part name="C96" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="P+76" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY141" library="supply2" deviceset="GND" device=""/>
+<part name="C97" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
+<part name="P+77" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V28" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY142" library="supply2" deviceset="GND" device=""/>
+<part name="C98" library="rcl" deviceset="C-US" device="C0805" value="NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -21793,10 +21822,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="SUPPLY18" gate="GND" x="63.5" y="-53.34" smashed="yes">
 <attribute name="VALUE" x="64.135" y="-60.325" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY19" gate="GND" x="7.62" y="-17.78"/>
-<instance part="C1" gate="G$1" x="7.62" y="-10.16"/>
-<instance part="R11" gate="G$1" x="0" y="-10.16" rot="R90"/>
-<instance part="SUPPLY20" gate="GND" x="0" y="-17.78"/>
+<instance part="SUPPLY19" gate="GND" x="0" y="-17.78"/>
+<instance part="R11" gate="G$1" x="-7.62" y="-10.16" rot="R90"/>
+<instance part="SUPPLY20" gate="GND" x="-7.62" y="-17.78"/>
 <instance part="+3V7" gate="G$1" x="63.5" y="45.72" smashed="yes">
 <attribute name="VALUE" x="63.5" y="45.72" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -21814,12 +21842,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="R13" gate="G$1" x="88.9" y="-50.8"/>
 <instance part="C2" gate="G$1" x="96.52" y="-53.34"/>
 <instance part="+3V9" gate="G$1" x="96.52" y="-38.1"/>
-<instance part="+3V10" gate="G$1" x="53.34" y="-50.8"/>
-<instance part="SUPPLY24" gate="GND" x="53.34" y="-63.5"/>
-<instance part="C3" gate="G$1" x="53.34" y="-55.88"/>
-<instance part="+3V11" gate="G$1" x="121.92" y="-7.62"/>
-<instance part="SUPPLY25" gate="GND" x="121.92" y="-20.32"/>
-<instance part="C4" gate="G$1" x="121.92" y="-12.7"/>
+<instance part="+3V10" gate="G$1" x="43.18" y="-50.8"/>
+<instance part="SUPPLY24" gate="GND" x="43.18" y="-63.5"/>
+<instance part="C3" gate="G$1" x="43.18" y="-55.88"/>
+<instance part="+3V11" gate="G$1" x="119.38" y="27.94"/>
+<instance part="SUPPLY25" gate="GND" x="119.38" y="15.24"/>
+<instance part="C4" gate="G$1" x="119.38" y="22.86"/>
 <instance part="+3V12" gate="G$1" x="73.66" y="63.5"/>
 <instance part="SUPPLY26" gate="GND" x="73.66" y="50.8"/>
 <instance part="C5" gate="G$1" x="73.66" y="58.42"/>
@@ -22502,6 +22530,36 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="P+75" gate="1" x="-116.84" y="-66.04" smashed="yes">
 <attribute name="VALUE" x="-119.38" y="-66.04" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="+3V22" gate="G$1" x="83.82" y="63.5"/>
+<instance part="SUPPLY133" gate="GND" x="83.82" y="50.8"/>
+<instance part="C89" gate="G$1" x="83.82" y="58.42"/>
+<instance part="+3V23" gate="G$1" x="129.54" y="27.94"/>
+<instance part="SUPPLY134" gate="GND" x="129.54" y="15.24"/>
+<instance part="C90" gate="G$1" x="129.54" y="22.86"/>
+<instance part="+3V24" gate="G$1" x="53.34" y="-50.8"/>
+<instance part="SUPPLY135" gate="GND" x="53.34" y="-63.5"/>
+<instance part="C91" gate="G$1" x="53.34" y="-55.88"/>
+<instance part="SUPPLY136" gate="GND" x="10.16" y="-17.78"/>
+<instance part="C92" gate="G$1" x="10.16" y="-10.16"/>
+<instance part="C1" gate="G$1" x="0" y="-10.16"/>
+<instance part="+3V25" gate="G$1" x="17.78" y="-22.86"/>
+<instance part="SUPPLY137" gate="GND" x="17.78" y="-35.56"/>
+<instance part="C93" gate="G$1" x="17.78" y="-27.94"/>
+<instance part="+3V26" gate="G$1" x="27.94" y="-22.86"/>
+<instance part="SUPPLY138" gate="GND" x="27.94" y="-35.56"/>
+<instance part="C94" gate="G$1" x="27.94" y="-27.94"/>
+<instance part="+3V27" gate="G$1" x="142.24" y="-121.92"/>
+<instance part="SUPPLY139" gate="GND" x="142.24" y="-134.62"/>
+<instance part="C95" gate="G$1" x="142.24" y="-127"/>
+<instance part="SUPPLY140" gate="GND" x="58.42" y="-147.32"/>
+<instance part="C96" gate="G$1" x="58.42" y="-139.7"/>
+<instance part="P+76" gate="1" x="58.42" y="-134.62"/>
+<instance part="SUPPLY141" gate="GND" x="60.96" y="68.58"/>
+<instance part="C97" gate="G$1" x="60.96" y="76.2"/>
+<instance part="P+77" gate="1" x="60.96" y="81.28"/>
+<instance part="+3V28" gate="G$1" x="147.32" y="91.44"/>
+<instance part="SUPPLY142" gate="GND" x="147.32" y="78.74"/>
+<instance part="C98" gate="G$1" x="147.32" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -22953,6 +23011,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="D64" gate="G$1" pin="C"/>
 <pinref part="P+75" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="C96" gate="G$1" pin="1"/>
+<pinref part="P+76" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C97" gate="G$1" pin="1"/>
+<pinref part="P+77" gate="1" pin="+5V"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -23046,10 +23112,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <pinref part="IC3" gate="G$1" pin="AVSS"/>
 <wire x1="63.5" y1="-50.8" x2="63.5" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY19" gate="GND" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -23515,6 +23577,50 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="SUPPLY132" gate="GND" pin="GND"/>
 <pinref part="C88" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="SUPPLY133" gate="GND" pin="GND"/>
+<pinref part="C89" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY134" gate="GND" pin="GND"/>
+<pinref part="C90" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY135" gate="GND" pin="GND"/>
+<pinref part="C91" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY136" gate="GND" pin="GND"/>
+<pinref part="C92" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY137" gate="GND" pin="GND"/>
+<pinref part="C93" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY138" gate="GND" pin="GND"/>
+<pinref part="C94" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY139" gate="GND" pin="GND"/>
+<pinref part="C95" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY140" gate="GND" pin="GND"/>
+<pinref part="C96" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY141" gate="GND" pin="GND"/>
+<pinref part="C97" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY142" gate="GND" pin="GND"/>
+<pinref part="C98" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -23616,6 +23722,34 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C89" gate="G$1" pin="1"/>
+<pinref part="+3V22" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C90" gate="G$1" pin="1"/>
+<pinref part="+3V23" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C91" gate="G$1" pin="1"/>
+<pinref part="+3V24" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C93" gate="G$1" pin="1"/>
+<pinref part="+3V25" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C94" gate="G$1" pin="1"/>
+<pinref part="+3V26" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C95" gate="G$1" pin="1"/>
+<pinref part="+3V27" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C98" gate="G$1" pin="1"/>
+<pinref part="+3V28" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="RSEL0" class="0">
@@ -24948,19 +25082,22 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="VDDCORE"/>
-<wire x1="30.48" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
 <label x="17.78" y="-5.08" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C92" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISVREG" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="DISVREG"/>
-<wire x1="0" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-2.54" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
 <label x="17.78" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
