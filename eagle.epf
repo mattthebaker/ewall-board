@@ -343,7 +343,7 @@ UsedLibrary="Parts.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="172 181 1024 695"
+Loc="169 160 1021 674"
 State=2
 Number=0
 
