@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -20717,14 +20717,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R82" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
 <part name="R83" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
 <part name="IC6" library="Parts" deviceset="TC1015" device=""/>
-<part name="C23" library="rcl" deviceset="C-US" device="C0805" value="470pF"/>
+<part name="C23" library="rcl" deviceset="C-US" device="C0603K" value="470pF"/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
 <part name="C24" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
 <part name="SUPPLY63" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY64" library="supply2" deviceset="GND" device=""/>
-<part name="C25" library="rcl" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="C25" library="rcl" deviceset="C-US" device="C0603K" value="1uF"/>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
 <part name="IC7" library="Parts" deviceset="NCP1117" device="" value="NCP1117"/>
 <part name="SUPPLY66" library="supply2" deviceset="V+" device=""/>
@@ -23933,98 +23933,98 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="TOUCH0" class="0">
 <segment>
-<wire x1="-426.72" y1="45.72" x2="-416.56" y2="45.72" width="0.1524" layer="91"/>
-<label x="-426.72" y="45.72" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="Y0"/>
-</segment>
-<segment>
 <wire x1="-365.76" y1="68.58" x2="-355.6" y2="68.58" width="0.1524" layer="91"/>
 <label x="-365.76" y="68.58" size="1.778" layer="95"/>
 <pinref part="R62" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="-419.1" y1="147.32" x2="-411.48" y2="147.32" width="0.1524" layer="91"/>
+<label x="-419.1" y="147.32" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$1" pin="AN4"/>
+</segment>
 </net>
 <net name="TOUCH1" class="0">
-<segment>
-<wire x1="-416.56" y1="43.18" x2="-426.72" y2="43.18" width="0.1524" layer="91"/>
-<label x="-426.72" y="43.18" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="Y1"/>
-</segment>
 <segment>
 <label x="-365.76" y="63.5" size="1.778" layer="95"/>
 <pinref part="R63" gate="G$1" pin="1"/>
 <wire x1="-345.44" y1="63.5" x2="-365.76" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-447.04" y1="124.46" x2="-447.04" y2="116.84" width="0.1524" layer="91"/>
+<label x="-447.04" y="114.3" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC3" gate="G$1" pin="AN1"/>
+</segment>
 </net>
 <net name="TOUCH2" class="0">
-<segment>
-<wire x1="-426.72" y1="40.64" x2="-416.56" y2="40.64" width="0.1524" layer="91"/>
-<label x="-426.72" y="40.64" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="Y2"/>
-</segment>
 <segment>
 <wire x1="-365.76" y1="58.42" x2="-355.6" y2="58.42" width="0.1524" layer="91"/>
 <label x="-365.76" y="58.42" size="1.778" layer="95"/>
 <pinref part="R64" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="-459.74" y1="116.84" x2="-459.74" y2="124.46" width="0.1524" layer="91"/>
+<label x="-459.74" y="114.3" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC3" gate="G$1" pin="AN9"/>
+</segment>
 </net>
 <net name="TOUCH3" class="0">
-<segment>
-<wire x1="-416.56" y1="38.1" x2="-426.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="-426.72" y="38.1" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="Y3"/>
-</segment>
 <segment>
 <label x="-365.76" y="53.34" size="1.778" layer="95"/>
 <pinref part="R65" gate="G$1" pin="1"/>
 <wire x1="-345.44" y1="53.34" x2="-365.76" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-426.72" y1="40.64" x2="-416.56" y2="40.64" width="0.1524" layer="91"/>
+<label x="-426.72" y="40.64" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="Y2"/>
+</segment>
 </net>
 <net name="TOUCH7" class="0">
-<segment>
-<wire x1="-426.72" y1="50.8" x2="-416.56" y2="50.8" width="0.1524" layer="91"/>
-<label x="-426.72" y="50.8" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="X3"/>
-</segment>
 <segment>
 <label x="-365.76" y="33.02" size="1.778" layer="95"/>
 <pinref part="R69" gate="G$1" pin="1"/>
 <wire x1="-345.44" y1="33.02" x2="-365.76" y2="33.02" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="TOUCH6" class="0">
 <segment>
 <wire x1="-416.56" y1="53.34" x2="-426.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="-426.72" y="53.34" size="1.778" layer="95"/>
 <pinref part="IC4" gate="A" pin="X2"/>
 </segment>
+</net>
+<net name="TOUCH6" class="0">
 <segment>
 <wire x1="-355.6" y1="38.1" x2="-365.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="-365.76" y="38.1" size="1.778" layer="95"/>
 <pinref part="R68" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="-416.56" y1="43.18" x2="-426.72" y2="43.18" width="0.1524" layer="91"/>
+<label x="-426.72" y="43.18" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="Y1"/>
+</segment>
 </net>
 <net name="TOUCH5" class="0">
-<segment>
-<wire x1="-426.72" y1="55.88" x2="-416.56" y2="55.88" width="0.1524" layer="91"/>
-<label x="-426.72" y="55.88" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="X1"/>
-</segment>
 <segment>
 <label x="-365.76" y="43.18" size="1.778" layer="95"/>
 <pinref part="R67" gate="G$1" pin="1"/>
 <wire x1="-345.44" y1="43.18" x2="-365.76" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-416.56" y1="38.1" x2="-426.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="-426.72" y="38.1" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="Y3"/>
+</segment>
 </net>
 <net name="TOUCH4" class="0">
-<segment>
-<wire x1="-416.56" y1="58.42" x2="-426.72" y2="58.42" width="0.1524" layer="91"/>
-<label x="-426.72" y="58.42" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="X0"/>
-</segment>
 <segment>
 <wire x1="-355.6" y1="48.26" x2="-365.76" y2="48.26" width="0.1524" layer="91"/>
 <label x="-365.76" y="48.26" size="1.778" layer="95"/>
 <pinref part="R66" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="-426.72" y1="45.72" x2="-416.56" y2="45.72" width="0.1524" layer="91"/>
+<label x="-426.72" y="45.72" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="Y0"/>
 </segment>
 </net>
 <net name="RBEN" class="0">
@@ -25232,38 +25232,38 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="TOUCH8" class="0">
 <segment>
-<wire x1="-459.74" y1="116.84" x2="-459.74" y2="124.46" width="0.1524" layer="91"/>
-<label x="-459.74" y="114.3" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC3" gate="G$1" pin="AN9"/>
-</segment>
-<segment>
 <wire x1="-365.76" y1="27.94" x2="-355.6" y2="27.94" width="0.1524" layer="91"/>
 <label x="-365.76" y="27.94" size="1.778" layer="95"/>
 <pinref part="R70" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="-426.72" y1="55.88" x2="-416.56" y2="55.88" width="0.1524" layer="91"/>
+<label x="-426.72" y="55.88" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="X1"/>
+</segment>
 </net>
 <net name="TOUCH9" class="0">
-<segment>
-<wire x1="-447.04" y1="124.46" x2="-447.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="-447.04" y="114.3" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC3" gate="G$1" pin="AN1"/>
-</segment>
 <segment>
 <label x="-365.76" y="22.86" size="1.778" layer="95"/>
 <pinref part="R71" gate="G$1" pin="1"/>
 <wire x1="-345.44" y1="22.86" x2="-365.76" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-416.56" y1="58.42" x2="-426.72" y2="58.42" width="0.1524" layer="91"/>
+<label x="-426.72" y="58.42" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="X0"/>
+</segment>
 </net>
 <net name="TOUCH10" class="0">
-<segment>
-<wire x1="-419.1" y1="147.32" x2="-411.48" y2="147.32" width="0.1524" layer="91"/>
-<label x="-419.1" y="147.32" size="1.778" layer="95"/>
-<pinref part="IC3" gate="G$1" pin="AN4"/>
-</segment>
 <segment>
 <wire x1="-365.76" y1="17.78" x2="-355.6" y2="17.78" width="0.1524" layer="91"/>
 <label x="-365.76" y="17.78" size="1.778" layer="95"/>
 <pinref part="R72" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="-426.72" y1="50.8" x2="-416.56" y2="50.8" width="0.1524" layer="91"/>
+<label x="-426.72" y="50.8" size="1.778" layer="95"/>
+<pinref part="IC4" gate="A" pin="X3"/>
 </segment>
 </net>
 <net name="TOUCH19" class="0">
