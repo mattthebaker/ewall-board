@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1259,7 +1259,7 @@ chip</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="R0603">
+<package name="R0603@1">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -8341,7 +8341,7 @@ diameter 5 mm, grid 2.54 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603" package="R0603">
+<device name="R0603" package="R0603@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -13633,6 +13633,19 @@ package type TQ</description>
 <text x="-2.6" y="1.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3" y="-3.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PNP">
@@ -13793,7 +13806,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21335e.pdf</description>
 <text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
 <symbol name="GND">
@@ -13891,6 +13904,21 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21335e.pdf</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="R-US">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DPBT8105" prefix="Q">
@@ -13975,7 +14003,7 @@ On Shore Technology, Inc.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLC5952" prefix="IC">
+<deviceset name="TLC5952" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="TLC5952" x="-15.24" y="15.24"/>
 </gates>
@@ -14295,6 +14323,23 @@ Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
 <connects>
 <connect gate="P" pin="1" pad="P$1"/>
 <connect gate="P" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R-US_" prefix="R" uservalue="yes">
+<description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="R0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19455,18 +19500,18 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <parts>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="GND" device=""/>
-<part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R42" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R40" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R41" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R42" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C20" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="Q2" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R1" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R2" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R3" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C1" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -19474,72 +19519,72 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="ROW1" library="Parts" deviceset="OSTVN08A150" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R4" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R5" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R6" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C2" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="Q3" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R7" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R8" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R9" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D4" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="Q4" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R10" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R11" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R12" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C4" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D5" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="Q5" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R13" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R14" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R15" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D6" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="Q6" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R16" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R17" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R18" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C6" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D7" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="Q7" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
-<part name="R19" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R20" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R19" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R20" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R21" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D8" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="Q8" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
-<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R22" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R23" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R24" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C8" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D9" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="Q9" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
-<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R26" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R25" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R26" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R27" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C9" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D10" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
@@ -19547,54 +19592,54 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="ROW2" library="Parts" deviceset="OSTVN08A150" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R29" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R30" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R28" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R29" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R30" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C10" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D11" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="Q11" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
-<part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R31" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R32" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R33" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C11" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D12" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="Q12" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
-<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R36" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R34" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R35" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R36" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C12" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D13" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="Q13" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R37" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R38" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R39" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C13" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D14" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="Q14" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
-<part name="R43" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R44" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R45" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R43" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R44" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R45" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C14" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D15" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="Q15" library="Parts" deviceset="DPBT8105" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="R46" library="resistor" deviceset="R-US_" device="R0603" value="20"/>
-<part name="R47" library="resistor" deviceset="R-US_" device="R0603" value="750"/>
-<part name="R48" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R46" library="Parts" deviceset="R-US_" device="R0603" value="20"/>
+<part name="R47" library="Parts" deviceset="R-US_" device="R0603" value="750"/>
+<part name="R48" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="C15" library="resistor" deviceset="C-US" device="C0603" value="22n"/>
 <part name="D16" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
@@ -19604,28 +19649,28 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
-<part name="R49" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
-<part name="R50" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R49" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R50" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
-<part name="R51" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R51" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="IC2" library="Parts" deviceset="74*138" device="D" technology="HCT"/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
-<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
-<part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R52" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R53" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
-<part name="R54" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R54" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
-<part name="U$1" library="Parts" deviceset="TLC5952" device=""/>
+<part name="IC8" library="Parts" deviceset="TLC5952" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
 <part name="R55" library="resistor" deviceset="R-US_" device="R0805" value="1.37k 0.5%"/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
-<part name="U$2" library="Parts" deviceset="TLC5952" device=""/>
+<part name="IC9" library="Parts" deviceset="TLC5952" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY43" library="supply2" deviceset="GND" device=""/>
 <part name="R56" library="resistor" deviceset="R-US_" device="R0805" value="1.37k 0.5%"/>
@@ -19638,22 +19683,22 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="con-jack" deviceset="DCJ0303" device="" value="PWR"/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
-<part name="R57" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
-<part name="R58" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R57" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R58" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
-<part name="R59" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R59" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY55" library="supply2" deviceset="GND" device=""/>
-<part name="R60" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
-<part name="R61" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R60" library="Parts" deviceset="R-US_" device="R0603" value="4.7k"/>
+<part name="R61" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
 <part name="C16" library="rcl" deviceset="C-US" device="C0603K" value="NC"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
@@ -19675,28 +19720,28 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 <part name="TCH1" library="Parts" deviceset="OSTVN11A150" device=""/>
 <part name="TCH0" library="Parts" deviceset="OSTVN11A150" device=""/>
-<part name="R62" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R63" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R64" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R65" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R66" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R67" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R68" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R69" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R70" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R71" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R72" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R73" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R74" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R75" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R76" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R77" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R78" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R79" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R80" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R81" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R82" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
-<part name="R83" library="resistor" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R62" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R63" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R64" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R65" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R66" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R67" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R68" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R69" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R70" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R71" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R72" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R73" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R74" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R75" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R76" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R77" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R78" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R79" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R80" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R81" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R82" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
+<part name="R83" library="Parts" deviceset="R-US_" device="R0603" value="390"/>
 <part name="IC6" library="Parts" deviceset="TC1015" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603K" value="470pF"/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
@@ -19713,12 +19758,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY67" library="supply2" deviceset="GND" device=""/>
 <part name="R84" library="resistor" deviceset="R-US_" device="R0805" value="0"/>
 <part name="SUPPLY68" library="supply2" deviceset="V+" device=""/>
-<part name="R85" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
-<part name="R86" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R85" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R86" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY69" library="supply2" deviceset="GND" device=""/>
 <part name="Q17" library="transistor" deviceset="*-NPN-" device="SOT23-EBC" value="NC"/>
-<part name="R87" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
+<part name="R87" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="SUPPLY70" library="supply2" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
@@ -19762,99 +19807,99 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+27" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY84" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY85" library="supply2" deviceset="GND" device=""/>
-<part name="R88" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R88" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C41" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D17" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY86" library="supply2" deviceset="GND" device=""/>
-<part name="R89" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R89" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C42" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D18" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY87" library="supply2" deviceset="GND" device=""/>
-<part name="R90" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R90" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C43" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D19" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY88" library="supply2" deviceset="GND" device=""/>
-<part name="R91" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R91" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C44" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D20" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY89" library="supply2" deviceset="GND" device=""/>
-<part name="R92" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R92" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C45" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D21" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY90" library="supply2" deviceset="GND" device=""/>
-<part name="R93" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R93" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C46" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D22" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY91" library="supply2" deviceset="GND" device=""/>
-<part name="R94" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R94" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C47" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D23" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY92" library="supply2" deviceset="GND" device=""/>
-<part name="R95" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R95" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C48" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D24" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY93" library="supply2" deviceset="GND" device=""/>
-<part name="R96" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R96" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C49" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D25" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY94" library="supply2" deviceset="GND" device=""/>
-<part name="R97" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R97" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C50" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D26" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY95" library="supply2" deviceset="GND" device=""/>
-<part name="R98" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R98" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C51" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D27" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY96" library="supply2" deviceset="GND" device=""/>
-<part name="R99" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R99" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C52" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D28" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY97" library="supply2" deviceset="GND" device=""/>
-<part name="R100" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R100" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C53" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D29" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY98" library="supply2" deviceset="GND" device=""/>
-<part name="R101" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R101" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C54" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D30" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY99" library="supply2" deviceset="GND" device=""/>
-<part name="R102" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R102" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C55" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D31" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY100" library="supply2" deviceset="GND" device=""/>
-<part name="R103" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R103" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C56" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D32" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY101" library="supply2" deviceset="GND" device=""/>
-<part name="R104" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R104" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C57" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D33" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY102" library="supply2" deviceset="GND" device=""/>
-<part name="R105" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R105" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C58" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D34" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY103" library="supply2" deviceset="GND" device=""/>
-<part name="R106" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R106" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C59" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D35" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY104" library="supply2" deviceset="GND" device=""/>
-<part name="R107" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R107" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C60" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D36" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY105" library="supply2" deviceset="GND" device=""/>
-<part name="R108" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R108" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C61" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D37" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
-<part name="R109" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R109" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C62" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D38" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
-<part name="R110" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R110" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C63" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D39" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device=""/>
-<part name="R111" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R111" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C64" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D40" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+52" library="supply1" deviceset="+5V" device=""/>
@@ -19882,99 +19927,99 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+49" library="supply1" deviceset="+5V" device=""/>
 <part name="P+50" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY109" library="supply2" deviceset="GND" device=""/>
-<part name="R112" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R112" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C65" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D41" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY110" library="supply2" deviceset="GND" device=""/>
-<part name="R113" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R113" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C66" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D42" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY111" library="supply2" deviceset="GND" device=""/>
-<part name="R114" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R114" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C67" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D43" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY112" library="supply2" deviceset="GND" device=""/>
-<part name="R115" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R115" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C68" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D44" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY113" library="supply2" deviceset="GND" device=""/>
-<part name="R116" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R116" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C69" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D45" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY114" library="supply2" deviceset="GND" device=""/>
-<part name="R117" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R117" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C70" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D46" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY115" library="supply2" deviceset="GND" device=""/>
-<part name="R118" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R118" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C71" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D47" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY116" library="supply2" deviceset="GND" device=""/>
-<part name="R119" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R119" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C72" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D48" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY117" library="supply2" deviceset="GND" device=""/>
-<part name="R120" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R120" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C73" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D49" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY118" library="supply2" deviceset="GND" device=""/>
-<part name="R121" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R121" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C74" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D50" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY119" library="supply2" deviceset="GND" device=""/>
-<part name="R122" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R122" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C75" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D51" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY120" library="supply2" deviceset="GND" device=""/>
-<part name="R123" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R123" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C76" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D52" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY121" library="supply2" deviceset="GND" device=""/>
-<part name="R124" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R124" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C77" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D53" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY122" library="supply2" deviceset="GND" device=""/>
-<part name="R125" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R125" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C78" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D54" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY123" library="supply2" deviceset="GND" device=""/>
-<part name="R126" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R126" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C79" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D55" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY124" library="supply2" deviceset="GND" device=""/>
-<part name="R127" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R127" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C80" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D56" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY125" library="supply2" deviceset="GND" device=""/>
-<part name="R128" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R128" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C81" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D57" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY126" library="supply2" deviceset="GND" device=""/>
-<part name="R129" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R129" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C82" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D58" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY127" library="supply2" deviceset="GND" device=""/>
-<part name="R130" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R130" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C83" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D59" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY128" library="supply2" deviceset="GND" device=""/>
-<part name="R131" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R131" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C84" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D60" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY129" library="supply2" deviceset="GND" device=""/>
-<part name="R132" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R132" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C85" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D61" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY130" library="supply2" deviceset="GND" device=""/>
-<part name="R133" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R133" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C86" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D62" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY131" library="supply2" deviceset="GND" device=""/>
-<part name="R134" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R134" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C87" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D63" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="SUPPLY132" library="supply2" deviceset="GND" device=""/>
-<part name="R135" library="resistor" deviceset="R-US_" device="R0603" value="300"/>
+<part name="R135" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C88" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
 <part name="D64" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
 <part name="P+51" library="supply1" deviceset="+5V" device=""/>
@@ -20044,6 +20089,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY145" library="supply2" deviceset="GND" device=""/>
 <part name="C101" library="rcl" deviceset="C-US" device="C0603K" value="0.1uF"/>
 <part name="P+80" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V26" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20279,12 +20325,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SUPPLY39" gate="GND" x="-515.62" y="236.22"/>
 <instance part="R54" gate="G$1" x="-426.72" y="243.84" rot="R90"/>
 <instance part="SUPPLY40" gate="GND" x="-426.72" y="233.68"/>
-<instance part="U$1" gate="G$1" x="-304.8" y="154.94"/>
+<instance part="IC8" gate="G$1" x="-304.8" y="154.94"/>
 <instance part="+3V3" gate="G$1" x="-322.58" y="190.5"/>
 <instance part="SUPPLY41" gate="GND" x="-322.58" y="111.76"/>
 <instance part="R55" gate="G$1" x="-322.58" y="160.02" rot="R90"/>
 <instance part="SUPPLY42" gate="GND" x="-322.58" y="152.4"/>
-<instance part="U$2" gate="G$1" x="-579.12" y="157.48"/>
+<instance part="IC9" gate="G$1" x="-579.12" y="157.48"/>
 <instance part="+3V4" gate="G$1" x="-596.9" y="193.04"/>
 <instance part="SUPPLY43" gate="GND" x="-596.9" y="114.3"/>
 <instance part="R56" gate="G$1" x="-596.9" y="162.56" rot="R90"/>
@@ -20890,6 +20936,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SUPPLY145" gate="GND" x="-688.34" y="271.78"/>
 <instance part="C101" gate="G$1" x="-688.34" y="279.4"/>
 <instance part="P+80" gate="1" x="-688.34" y="284.48"/>
+<instance part="+3V26" gate="G$1" x="-414.02" y="281.94"/>
 </instances>
 <busses>
 </busses>
@@ -21090,10 +21137,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
 <wire x1="-322.58" y1="114.3" x2="-322.58" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC8" gate="G$1" pin="GND"/>
 <wire x1="-322.58" y1="116.84" x2="-320.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-322.58" y1="116.84" x2="-322.58" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="EPAD"/>
+<pinref part="IC8" gate="G$1" pin="EPAD"/>
 <wire x1="-322.58" y1="121.92" x2="-320.04" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-322.58" y="116.84"/>
 </segment>
@@ -21104,10 +21151,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="SUPPLY43" gate="GND" pin="GND"/>
 <wire x1="-596.9" y1="116.84" x2="-596.9" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="IC9" gate="G$1" pin="GND"/>
 <wire x1="-596.9" y1="119.38" x2="-594.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-596.9" y1="119.38" x2="-596.9" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="EPAD"/>
+<pinref part="IC9" gate="G$1" pin="EPAD"/>
 <wire x1="-596.9" y1="124.46" x2="-594.36" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-596.9" y="119.38"/>
 </segment>
@@ -22692,15 +22739,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="-411.48" y1="276.86" x2="-414.02" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="-414.02" y1="276.86" x2="-414.02" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="VCC"/>
+<pinref part="+3V26" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="IC8" gate="G$1" pin="VCC"/>
 <wire x1="-320.04" y1="185.42" x2="-322.58" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="-322.58" y1="185.42" x2="-322.58" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="IC9" gate="G$1" pin="VCC"/>
 <wire x1="-594.36" y1="187.96" x2="-596.9" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="-596.9" y1="187.96" x2="-596.9" y2="190.5" width="0.1524" layer="91"/>
@@ -23204,7 +23252,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C0_SIN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SIN"/>
+<pinref part="IC8" gate="G$1" pin="SIN"/>
 <wire x1="-320.04" y1="180.34" x2="-332.74" y2="180.34" width="0.1524" layer="91"/>
 <label x="-332.74" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -23216,7 +23264,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C0_SCLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCLK"/>
+<pinref part="IC8" gate="G$1" pin="SCLK"/>
 <wire x1="-332.74" y1="177.8" x2="-320.04" y2="177.8" width="0.1524" layer="91"/>
 <label x="-332.74" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -23228,7 +23276,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C0_LAT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="LAT"/>
+<pinref part="IC8" gate="G$1" pin="LAT"/>
 <wire x1="-320.04" y1="175.26" x2="-332.74" y2="175.26" width="0.1524" layer="91"/>
 <label x="-332.74" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -23240,7 +23288,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="CAIREF" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="IREF"/>
+<pinref part="IC8" gate="G$1" pin="IREF"/>
 <wire x1="-320.04" y1="167.64" x2="-322.58" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="2"/>
 <wire x1="-322.58" y1="167.64" x2="-322.58" y2="165.1" width="0.1524" layer="91"/>
@@ -23250,7 +23298,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <wire x1="-561.34" y1="182.88" x2="-548.64" y2="182.88" width="0.1524" layer="91"/>
 <label x="-558.8" y="182.88" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="SOUT"/>
+<pinref part="IC9" gate="G$1" pin="SOUT"/>
 </segment>
 <segment>
 <wire x1="-500.38" y1="162.56" x2="-490.22" y2="162.56" width="0.1524" layer="91"/>
@@ -23260,7 +23308,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="CAIREF1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="IREF"/>
+<pinref part="IC9" gate="G$1" pin="IREF"/>
 <wire x1="-594.36" y1="170.18" x2="-596.9" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="2"/>
 <wire x1="-596.9" y1="170.18" x2="-596.9" y2="167.64" width="0.1524" layer="91"/>
@@ -23268,7 +23316,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C1_SIN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="SIN"/>
+<pinref part="IC9" gate="G$1" pin="SIN"/>
 <wire x1="-594.36" y1="182.88" x2="-607.06" y2="182.88" width="0.1524" layer="91"/>
 <label x="-607.06" y="182.88" size="1.778" layer="95"/>
 </segment>
@@ -23280,7 +23328,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C1_SCLK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="SCLK"/>
+<pinref part="IC9" gate="G$1" pin="SCLK"/>
 <wire x1="-607.06" y1="180.34" x2="-594.36" y2="180.34" width="0.1524" layer="91"/>
 <label x="-607.06" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -23292,7 +23340,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C1_LAT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="LAT"/>
+<pinref part="IC9" gate="G$1" pin="LAT"/>
 <wire x1="-594.36" y1="177.8" x2="-607.06" y2="177.8" width="0.1524" layer="91"/>
 <label x="-607.06" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -23304,12 +23352,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C_BLANK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="BLANK"/>
+<pinref part="IC9" gate="G$1" pin="BLANK"/>
 <wire x1="-607.06" y1="175.26" x2="-594.36" y2="175.26" width="0.1524" layer="91"/>
 <label x="-607.06" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="BLANK"/>
+<pinref part="IC8" gate="G$1" pin="BLANK"/>
 <wire x1="-332.74" y1="172.72" x2="-320.04" y2="172.72" width="0.1524" layer="91"/>
 <label x="-332.74" y="172.72" size="1.778" layer="95"/>
 </segment>
@@ -23321,7 +23369,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="C0_SOUT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SOUT"/>
+<pinref part="IC8" gate="G$1" pin="SOUT"/>
 <wire x1="-287.02" y1="180.34" x2="-274.32" y2="180.34" width="0.1524" layer="91"/>
 <label x="-284.48" y="180.34" size="1.778" layer="95"/>
 </segment>
@@ -23333,7 +23381,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR0"/>
+<pinref part="IC8" gate="G$1" pin="OUTR0"/>
 <label x="-284.48" y="175.26" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-1" pin="KL"/>
 <wire x1="-287.02" y1="175.26" x2="-279.4" y2="175.26" width="0.1524" layer="91"/>
@@ -23350,7 +23398,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG0"/>
+<pinref part="IC8" gate="G$1" pin="OUTG0"/>
 <label x="-284.48" y="172.72" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-2" pin="KL"/>
 <wire x1="-279.4" y1="172.72" x2="-287.02" y2="172.72" width="0.1524" layer="91"/>
@@ -23367,7 +23415,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB0"/>
+<pinref part="IC8" gate="G$1" pin="OUTB0"/>
 <label x="-284.48" y="170.18" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-3" pin="KL"/>
 <wire x1="-287.02" y1="170.18" x2="-279.4" y2="170.18" width="0.1524" layer="91"/>
@@ -23384,7 +23432,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR1"/>
+<pinref part="IC8" gate="G$1" pin="OUTR1"/>
 <wire x1="-279.4" y1="167.64" x2="-287.02" y2="167.64" width="0.1524" layer="91"/>
 <label x="-284.48" y="167.64" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-4" pin="KL"/>
@@ -23401,7 +23449,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG1"/>
+<pinref part="IC8" gate="G$1" pin="OUTG1"/>
 <wire x1="-287.02" y1="165.1" x2="-279.4" y2="165.1" width="0.1524" layer="91"/>
 <label x="-284.48" y="165.1" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-5" pin="KL"/>
@@ -23418,7 +23466,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB1"/>
+<pinref part="IC8" gate="G$1" pin="OUTB1"/>
 <wire x1="-279.4" y1="162.56" x2="-287.02" y2="162.56" width="0.1524" layer="91"/>
 <label x="-284.48" y="162.56" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-6" pin="KL"/>
@@ -23435,7 +23483,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR2"/>
+<pinref part="IC8" gate="G$1" pin="OUTR2"/>
 <wire x1="-287.02" y1="160.02" x2="-279.4" y2="160.02" width="0.1524" layer="91"/>
 <label x="-284.48" y="160.02" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-7" pin="KL"/>
@@ -23452,7 +23500,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG2"/>
+<pinref part="IC8" gate="G$1" pin="OUTG2"/>
 <wire x1="-279.4" y1="157.48" x2="-287.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="-284.48" y="157.48" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-8" pin="KL"/>
@@ -23469,7 +23517,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB2"/>
+<pinref part="IC8" gate="G$1" pin="OUTB2"/>
 <wire x1="-287.02" y1="154.94" x2="-279.4" y2="154.94" width="0.1524" layer="91"/>
 <label x="-284.48" y="154.94" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-9" pin="KL"/>
@@ -23486,7 +23534,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR3"/>
+<pinref part="IC8" gate="G$1" pin="OUTR3"/>
 <wire x1="-279.4" y1="152.4" x2="-287.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="-284.48" y="152.4" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-10" pin="KL"/>
@@ -23503,7 +23551,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG3"/>
+<pinref part="IC8" gate="G$1" pin="OUTG3"/>
 <wire x1="-287.02" y1="149.86" x2="-279.4" y2="149.86" width="0.1524" layer="91"/>
 <label x="-284.48" y="149.86" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-11" pin="KL"/>
@@ -23520,7 +23568,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB3"/>
+<pinref part="IC8" gate="G$1" pin="OUTB3"/>
 <wire x1="-279.4" y1="147.32" x2="-287.02" y2="147.32" width="0.1524" layer="91"/>
 <label x="-284.48" y="147.32" size="1.778" layer="95"/>
 <pinref part="LED0" gate="-12" pin="KL"/>
@@ -23537,7 +23585,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR4"/>
+<pinref part="IC8" gate="G$1" pin="OUTR4"/>
 <wire x1="-287.02" y1="144.78" x2="-279.4" y2="144.78" width="0.1524" layer="91"/>
 <label x="-284.48" y="144.78" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-1" pin="KL"/>
@@ -23554,7 +23602,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG4"/>
+<pinref part="IC8" gate="G$1" pin="OUTG4"/>
 <wire x1="-279.4" y1="142.24" x2="-287.02" y2="142.24" width="0.1524" layer="91"/>
 <label x="-284.48" y="142.24" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-2" pin="KL"/>
@@ -23571,7 +23619,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB4"/>
+<pinref part="IC8" gate="G$1" pin="OUTB4"/>
 <wire x1="-287.02" y1="139.7" x2="-279.4" y2="139.7" width="0.1524" layer="91"/>
 <label x="-284.48" y="139.7" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-3" pin="KL"/>
@@ -23588,7 +23636,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR5"/>
+<pinref part="IC8" gate="G$1" pin="OUTR5"/>
 <wire x1="-279.4" y1="137.16" x2="-287.02" y2="137.16" width="0.1524" layer="91"/>
 <label x="-284.48" y="137.16" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-4" pin="KL"/>
@@ -23605,7 +23653,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG5"/>
+<pinref part="IC8" gate="G$1" pin="OUTG5"/>
 <wire x1="-287.02" y1="134.62" x2="-279.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="-284.48" y="134.62" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-5" pin="KL"/>
@@ -23622,7 +23670,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB5"/>
+<pinref part="IC8" gate="G$1" pin="OUTB5"/>
 <wire x1="-279.4" y1="132.08" x2="-287.02" y2="132.08" width="0.1524" layer="91"/>
 <label x="-284.48" y="132.08" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-6" pin="KL"/>
@@ -23639,7 +23687,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR6"/>
+<pinref part="IC8" gate="G$1" pin="OUTR6"/>
 <wire x1="-287.02" y1="129.54" x2="-279.4" y2="129.54" width="0.1524" layer="91"/>
 <label x="-284.48" y="129.54" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-7" pin="KL"/>
@@ -23656,7 +23704,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG6"/>
+<pinref part="IC8" gate="G$1" pin="OUTG6"/>
 <wire x1="-287.02" y1="127" x2="-279.4" y2="127" width="0.1524" layer="91"/>
 <label x="-284.48" y="127" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-8" pin="KL"/>
@@ -23673,7 +23721,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB6"/>
+<pinref part="IC8" gate="G$1" pin="OUTB6"/>
 <wire x1="-279.4" y1="124.46" x2="-287.02" y2="124.46" width="0.1524" layer="91"/>
 <label x="-284.48" y="124.46" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-9" pin="KL"/>
@@ -23690,7 +23738,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTR7"/>
+<pinref part="IC8" gate="G$1" pin="OUTR7"/>
 <wire x1="-287.02" y1="121.92" x2="-279.4" y2="121.92" width="0.1524" layer="91"/>
 <label x="-284.48" y="121.92" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-10" pin="KL"/>
@@ -23707,7 +23755,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTG7"/>
+<pinref part="IC8" gate="G$1" pin="OUTG7"/>
 <wire x1="-279.4" y1="119.38" x2="-287.02" y2="119.38" width="0.1524" layer="91"/>
 <label x="-284.48" y="119.38" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-11" pin="KL"/>
@@ -23724,7 +23772,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUTB7"/>
+<pinref part="IC8" gate="G$1" pin="OUTB7"/>
 <wire x1="-287.02" y1="116.84" x2="-279.4" y2="116.84" width="0.1524" layer="91"/>
 <label x="-284.48" y="116.84" size="1.778" layer="95"/>
 <pinref part="LED1" gate="-12" pin="KL"/>
@@ -23741,7 +23789,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R8" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR0"/>
+<pinref part="IC9" gate="G$1" pin="OUTR0"/>
 <pinref part="LED2" gate="-1" pin="KL"/>
 <wire x1="-553.72" y1="177.8" x2="-561.34" y2="177.8" width="0.1524" layer="91"/>
 <label x="-558.8" y="177.8" size="1.778" layer="95"/>
@@ -23758,7 +23806,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G8" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG0"/>
+<pinref part="IC9" gate="G$1" pin="OUTG0"/>
 <pinref part="LED2" gate="-2" pin="KL"/>
 <wire x1="-553.72" y1="175.26" x2="-561.34" y2="175.26" width="0.1524" layer="91"/>
 <label x="-558.8" y="175.26" size="1.778" layer="95"/>
@@ -23775,7 +23823,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B8" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB0"/>
+<pinref part="IC9" gate="G$1" pin="OUTB0"/>
 <pinref part="LED2" gate="-3" pin="KL"/>
 <wire x1="-553.72" y1="172.72" x2="-561.34" y2="172.72" width="0.1524" layer="91"/>
 <label x="-558.8" y="172.72" size="1.778" layer="95"/>
@@ -23792,7 +23840,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R9" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR1"/>
+<pinref part="IC9" gate="G$1" pin="OUTR1"/>
 <pinref part="LED2" gate="-4" pin="KL"/>
 <wire x1="-553.72" y1="170.18" x2="-561.34" y2="170.18" width="0.1524" layer="91"/>
 <label x="-558.8" y="170.18" size="1.778" layer="95"/>
@@ -23809,7 +23857,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G9" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG1"/>
+<pinref part="IC9" gate="G$1" pin="OUTG1"/>
 <pinref part="LED2" gate="-5" pin="KL"/>
 <wire x1="-553.72" y1="167.64" x2="-561.34" y2="167.64" width="0.1524" layer="91"/>
 <label x="-558.8" y="167.64" size="1.778" layer="95"/>
@@ -23826,7 +23874,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B9" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB1"/>
+<pinref part="IC9" gate="G$1" pin="OUTB1"/>
 <pinref part="LED2" gate="-6" pin="KL"/>
 <wire x1="-553.72" y1="165.1" x2="-561.34" y2="165.1" width="0.1524" layer="91"/>
 <label x="-558.8" y="165.1" size="1.778" layer="95"/>
@@ -23843,7 +23891,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R10" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR2"/>
+<pinref part="IC9" gate="G$1" pin="OUTR2"/>
 <pinref part="LED2" gate="-7" pin="KL"/>
 <wire x1="-553.72" y1="162.56" x2="-561.34" y2="162.56" width="0.1524" layer="91"/>
 <label x="-558.8" y="162.56" size="1.778" layer="95"/>
@@ -23860,7 +23908,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G10" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG2"/>
+<pinref part="IC9" gate="G$1" pin="OUTG2"/>
 <pinref part="LED2" gate="-8" pin="KL"/>
 <wire x1="-553.72" y1="160.02" x2="-561.34" y2="160.02" width="0.1524" layer="91"/>
 <label x="-558.8" y="160.02" size="1.778" layer="95"/>
@@ -23877,7 +23925,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B10" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB2"/>
+<pinref part="IC9" gate="G$1" pin="OUTB2"/>
 <pinref part="LED2" gate="-9" pin="KL"/>
 <wire x1="-553.72" y1="157.48" x2="-561.34" y2="157.48" width="0.1524" layer="91"/>
 <label x="-558.8" y="157.48" size="1.778" layer="95"/>
@@ -23894,7 +23942,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R11" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR3"/>
+<pinref part="IC9" gate="G$1" pin="OUTR3"/>
 <pinref part="LED2" gate="-10" pin="KL"/>
 <wire x1="-553.72" y1="154.94" x2="-561.34" y2="154.94" width="0.1524" layer="91"/>
 <label x="-558.8" y="154.94" size="1.778" layer="95"/>
@@ -23911,7 +23959,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G11" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG3"/>
+<pinref part="IC9" gate="G$1" pin="OUTG3"/>
 <pinref part="LED2" gate="-11" pin="KL"/>
 <wire x1="-553.72" y1="152.4" x2="-561.34" y2="152.4" width="0.1524" layer="91"/>
 <label x="-558.8" y="152.4" size="1.778" layer="95"/>
@@ -23928,7 +23976,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B11" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB3"/>
+<pinref part="IC9" gate="G$1" pin="OUTB3"/>
 <pinref part="LED2" gate="-12" pin="KL"/>
 <wire x1="-553.72" y1="149.86" x2="-561.34" y2="149.86" width="0.1524" layer="91"/>
 <label x="-558.8" y="149.86" size="1.778" layer="95"/>
@@ -23945,7 +23993,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R12" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR4"/>
+<pinref part="IC9" gate="G$1" pin="OUTR4"/>
 <pinref part="LED3" gate="-1" pin="KL"/>
 <wire x1="-553.72" y1="147.32" x2="-561.34" y2="147.32" width="0.1524" layer="91"/>
 <label x="-558.8" y="147.32" size="1.778" layer="95"/>
@@ -23962,7 +24010,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G12" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG4"/>
+<pinref part="IC9" gate="G$1" pin="OUTG4"/>
 <pinref part="LED3" gate="-2" pin="KL"/>
 <wire x1="-553.72" y1="144.78" x2="-561.34" y2="144.78" width="0.1524" layer="91"/>
 <label x="-558.8" y="144.78" size="1.778" layer="95"/>
@@ -23979,7 +24027,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B12" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB4"/>
+<pinref part="IC9" gate="G$1" pin="OUTB4"/>
 <pinref part="LED3" gate="-3" pin="KL"/>
 <wire x1="-553.72" y1="142.24" x2="-561.34" y2="142.24" width="0.1524" layer="91"/>
 <label x="-558.8" y="142.24" size="1.778" layer="95"/>
@@ -23996,7 +24044,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R13" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR5"/>
+<pinref part="IC9" gate="G$1" pin="OUTR5"/>
 <pinref part="LED3" gate="-4" pin="KL"/>
 <wire x1="-553.72" y1="139.7" x2="-561.34" y2="139.7" width="0.1524" layer="91"/>
 <label x="-558.8" y="139.7" size="1.778" layer="95"/>
@@ -24013,7 +24061,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G13" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG5"/>
+<pinref part="IC9" gate="G$1" pin="OUTG5"/>
 <pinref part="LED3" gate="-5" pin="KL"/>
 <wire x1="-553.72" y1="137.16" x2="-561.34" y2="137.16" width="0.1524" layer="91"/>
 <label x="-558.8" y="137.16" size="1.778" layer="95"/>
@@ -24030,7 +24078,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B13" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB5"/>
+<pinref part="IC9" gate="G$1" pin="OUTB5"/>
 <pinref part="LED3" gate="-6" pin="KL"/>
 <wire x1="-553.72" y1="134.62" x2="-561.34" y2="134.62" width="0.1524" layer="91"/>
 <label x="-558.8" y="134.62" size="1.778" layer="95"/>
@@ -24047,7 +24095,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R14" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR6"/>
+<pinref part="IC9" gate="G$1" pin="OUTR6"/>
 <pinref part="LED3" gate="-7" pin="KL"/>
 <wire x1="-553.72" y1="132.08" x2="-561.34" y2="132.08" width="0.1524" layer="91"/>
 <label x="-558.8" y="132.08" size="1.778" layer="95"/>
@@ -24064,7 +24112,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G14" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG6"/>
+<pinref part="IC9" gate="G$1" pin="OUTG6"/>
 <pinref part="LED3" gate="-8" pin="KL"/>
 <wire x1="-553.72" y1="129.54" x2="-561.34" y2="129.54" width="0.1524" layer="91"/>
 <label x="-558.8" y="129.54" size="1.778" layer="95"/>
@@ -24081,7 +24129,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B14" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB6"/>
+<pinref part="IC9" gate="G$1" pin="OUTB6"/>
 <pinref part="LED3" gate="-9" pin="KL"/>
 <wire x1="-553.72" y1="127" x2="-561.34" y2="127" width="0.1524" layer="91"/>
 <label x="-558.8" y="127" size="1.778" layer="95"/>
@@ -24098,7 +24146,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="R15" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTR7"/>
+<pinref part="IC9" gate="G$1" pin="OUTR7"/>
 <pinref part="LED3" gate="-10" pin="KL"/>
 <wire x1="-553.72" y1="124.46" x2="-561.34" y2="124.46" width="0.1524" layer="91"/>
 <label x="-558.8" y="124.46" size="1.778" layer="95"/>
@@ -24115,7 +24163,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="G15" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTG7"/>
+<pinref part="IC9" gate="G$1" pin="OUTG7"/>
 <pinref part="LED3" gate="-11" pin="KL"/>
 <wire x1="-553.72" y1="121.92" x2="-561.34" y2="121.92" width="0.1524" layer="91"/>
 <label x="-558.8" y="121.92" size="1.778" layer="95"/>
@@ -24132,7 +24180,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="B15" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUTB7"/>
+<pinref part="IC9" gate="G$1" pin="OUTB7"/>
 <pinref part="LED3" gate="-12" pin="KL"/>
 <wire x1="-553.72" y1="119.38" x2="-561.34" y2="119.38" width="0.1524" layer="91"/>
 <label x="-558.8" y="119.38" size="1.778" layer="95"/>
@@ -24891,6 +24939,27 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-320.04,185.42,IC8,VCC,+3V3,,,"/>
+<approved hash="104,1,-594.36,187.96,IC9,VCC,+3V3,,,"/>
+<approved hash="104,1,-551.18,48.26,IC7,OUT,+5V,,,"/>
+<approved hash="104,1,-457.2,124.46,IC3,AVSS,GND,,,"/>
+<approved hash="104,1,-454.66,124.46,IC3,AVDD,+3V3,,,"/>
+<approved hash="104,1,-419.1,160.02,IC3,VDD,+3V3,,,"/>
+<approved hash="104,1,-419.1,162.56,IC3,VSS,GND,,,"/>
+<approved hash="104,1,-454.66,195.58,IC3,VSS,GND,,,"/>
+<approved hash="104,1,-457.2,195.58,IC3,VDD,+3V3,,,"/>
+<approved hash="115,1,-329.056,-7.62,ROW1,,,,,"/>
+<approved hash="115,1,-331.596,363.22,ROW2,,,,,"/>
+<approved hash="115,1,-303.53,152.76,IC8,,,,,"/>
+<approved hash="115,1,-577.85,155.3,IC9,,,,,"/>
+<approved hash="115,1,-273.176,175.26,LED0,,,,,"/>
+<approved hash="115,1,-273.176,144.78,LED1,,,,,"/>
+<approved hash="115,1,-547.496,177.8,LED2,,,,,"/>
+<approved hash="115,1,-547.496,147.32,LED3,,,,,"/>
+<approved hash="115,1,-323.976,284.48,TCH1,,,,,"/>
+<approved hash="115,1,-329.056,68.58,TCH0,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
