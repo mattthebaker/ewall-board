@@ -13049,7 +13049,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <smd name="30" x="3.81" y="3.5814" dx="1.27" dy="0.3048" layer="1"/>
 <smd name="31" x="3.81" y="4.2164" dx="1.27" dy="0.3048" layer="1"/>
 <smd name="32" x="3.81" y="4.8768" dx="1.27" dy="0.3048" layer="1"/>
-<smd name="33" x="0" y="0" dx="4.1148" dy="4.3688" layer="1"/>
+<smd name="33" x="0" y="0" dx="4.4" dy="4.65" layer="1"/>
 <wire x1="-3.0988" y1="-5.5372" x2="3.0988" y2="-5.5372" width="0.1524" layer="51"/>
 <wire x1="3.0988" y1="5.5372" x2="-0.3048" y2="5.5372" width="0.1524" layer="51"/>
 <wire x1="-0.3048" y1="5.5372" x2="-3.0988" y2="5.5372" width="0.1524" layer="51"/>
@@ -19695,7 +19695,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R84" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY69" library="supply2" deviceset="GND" device=""/>
-<part name="Q9" library="transistor" deviceset="*-NPN-" device="SOT23-EBC" value="NC"/>
 <part name="R83" library="Parts" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="SUPPLY70" library="supply2" deviceset="GND" device=""/>
 <part name="P+21" library="supply1" deviceset="+5V" device=""/>
@@ -20028,6 +20027,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY146" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY147" library="supply2" deviceset="GND" device=""/>
 <part name="IC7" library="Parts" deviceset="NCP1117" device=""/>
+<part name="Q9" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847A" value="NC"/>
 </parts>
 <sheets>
 <sheet>
@@ -20429,10 +20429,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="-403.86" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY69" gate="GND" x="-403.86" y="93.98"/>
-<instance part="Q9" gate="G$1" x="-388.62" y="109.22" smashed="yes">
-<attribute name="NAME" x="-383.54" y="111.76" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-383.54" y="109.22" size="1.778" layer="96"/>
-</instance>
 <instance part="R83" gate="G$1" x="-396.24" y="109.22"/>
 <instance part="SUPPLY70" gate="GND" x="-386.08" y="101.6"/>
 <instance part="P+21" gate="1" x="-386.08" y="127" smashed="yes">
@@ -20885,6 +20881,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SUPPLY146" gate="GND" x="-337.82" y="7.62"/>
 <instance part="SUPPLY147" gate="GND" x="-332.74" y="223.52"/>
 <instance part="IC7" gate="G$1" x="-561.34" y="45.72"/>
+<instance part="Q9" gate="G$1" x="-388.62" y="109.22" smashed="yes">
+<attribute name="NAME" x="-383.54" y="109.22" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-383.54" y="106.68" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21200,10 +21200,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R84" gate="G$1" pin="1"/>
 <pinref part="SUPPLY69" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="Q9" gate="G$1" pin="E"/>
-<pinref part="SUPPLY70" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY71" gate="GND" pin="GND"/>
@@ -21524,6 +21520,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="SUPPLY67" gate="GND" pin="GND"/>
 <pinref part="IC7" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY70" gate="GND" pin="GND"/>
+<pinref part="Q9" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="ROW0EN_" class="0">
@@ -24502,18 +24502,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="IC7" gate="G$1" pin="IN"/>
 </segment>
 </net>
-<net name="N$87" class="0">
-<segment>
-<pinref part="Q9" gate="G$1" pin="B"/>
-<pinref part="R83" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$88" class="0">
 <segment>
-<pinref part="Q9" gate="G$1" pin="C"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="-378.46" y1="119.38" x2="-386.08" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-386.08" y1="119.38" x2="-386.08" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="Q9" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$89" class="0">
@@ -24894,6 +24888,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="TCH1" gate="-10" pin="KL"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="R83" gate="G$1" pin="2"/>
+<pinref part="Q9" gate="G$1" pin="B"/>
 </segment>
 </net>
 </nets>
