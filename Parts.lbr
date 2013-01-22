@@ -6,15 +6,15 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -24,7 +24,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -593,7 +593,7 @@ package type OT</description>
 <smd name="30" x="3.81" y="3.5814" dx="1.27" dy="0.3048" layer="1"/>
 <smd name="31" x="3.81" y="4.2164" dx="1.27" dy="0.3048" layer="1"/>
 <smd name="32" x="3.81" y="4.8768" dx="1.27" dy="0.3048" layer="1"/>
-<smd name="33" x="0" y="0" dx="4.4" dy="4.65" layer="1"/>
+<smd name="33" x="0" y="0" dx="4.11" dy="4.36" layer="1" cream="no"/>
 <wire x1="-3.0988" y1="-5.5372" x2="3.0988" y2="-5.5372" width="0.1524" layer="51"/>
 <wire x1="3.0988" y1="5.5372" x2="-0.3048" y2="5.5372" width="0.1524" layer="51"/>
 <wire x1="-0.3048" y1="5.5372" x2="-3.0988" y2="5.5372" width="0.1524" layer="51"/>
@@ -741,6 +741,7 @@ package type OT</description>
 <wire x1="0.3048" y1="5.5626" x2="-0.3048" y2="5.5372" width="0" layer="21" curve="-180"/>
 <text x="-4.6482" y="5.0546" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.8354" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">RefDes2</text>
+<rectangle x1="-2.2" y1="-2.325" x2="2.2" y2="2.325" layer="31"/>
 </package>
 <package name="OSTVN12">
 <description>.100" (2.54mm) Center Header - 12 Pin</description>
