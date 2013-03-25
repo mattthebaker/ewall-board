@@ -19607,99 +19607,99 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY85" library="supply2" deviceset="GND" device=""/>
 <part name="R45" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C26" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D15" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D15" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY86" library="supply2" deviceset="GND" device=""/>
 <part name="R46" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C27" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D16" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D16" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY87" library="supply2" deviceset="GND" device=""/>
 <part name="R47" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C28" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D17" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D17" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY88" library="supply2" deviceset="GND" device=""/>
 <part name="R48" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C29" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D18" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D18" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY89" library="supply2" deviceset="GND" device=""/>
 <part name="R49" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C30" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D19" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D19" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY90" library="supply2" deviceset="GND" device=""/>
 <part name="R50" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C31" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D20" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D20" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY91" library="supply2" deviceset="GND" device=""/>
 <part name="R59" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C44" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D27" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D27" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY92" library="supply2" deviceset="GND" device=""/>
 <part name="R60" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C45" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D28" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D28" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY93" library="supply2" deviceset="GND" device=""/>
 <part name="R61" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C46" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D29" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D29" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY94" library="supply2" deviceset="GND" device=""/>
 <part name="R62" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C47" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D30" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D30" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY95" library="supply2" deviceset="GND" device=""/>
 <part name="R63" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C48" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D31" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D31" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY96" library="supply2" deviceset="GND" device=""/>
 <part name="R64" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C49" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D32" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D32" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY97" library="supply2" deviceset="GND" device=""/>
 <part name="R74" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C62" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D39" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D39" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY98" library="supply2" deviceset="GND" device=""/>
 <part name="R75" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C63" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D40" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D40" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY99" library="supply2" deviceset="GND" device=""/>
 <part name="R76" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C64" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D41" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D41" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY100" library="supply2" deviceset="GND" device=""/>
 <part name="R77" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C65" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D42" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D42" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY101" library="supply2" deviceset="GND" device=""/>
 <part name="R78" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C66" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D43" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D43" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY102" library="supply2" deviceset="GND" device=""/>
 <part name="R79" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C67" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D44" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D44" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY103" library="supply2" deviceset="GND" device=""/>
 <part name="R92" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C80" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D51" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D51" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY104" library="supply2" deviceset="GND" device=""/>
 <part name="R93" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C81" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D52" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D52" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY105" library="supply2" deviceset="GND" device=""/>
 <part name="R94" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C82" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D53" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D53" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY106" library="supply2" deviceset="GND" device=""/>
 <part name="R95" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C83" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D54" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D54" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY107" library="supply2" deviceset="GND" device=""/>
 <part name="R96" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C84" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D55" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D55" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device=""/>
 <part name="R97" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C85" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D56" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D56" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="P+52" library="supply1" deviceset="+5V" device=""/>
 <part name="P+28" library="supply1" deviceset="+5V" device=""/>
 <part name="P+29" library="supply1" deviceset="+5V" device=""/>
@@ -19727,99 +19727,99 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY109" library="supply2" deviceset="GND" device=""/>
 <part name="R38" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C18" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D9" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D9" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY110" library="supply2" deviceset="GND" device=""/>
 <part name="R39" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C19" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D10" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D10" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY111" library="supply2" deviceset="GND" device=""/>
 <part name="R40" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C20" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D11" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D11" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY112" library="supply2" deviceset="GND" device=""/>
 <part name="R41" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C21" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D12" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D12" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY113" library="supply2" deviceset="GND" device=""/>
 <part name="R42" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C22" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D13" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D13" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY114" library="supply2" deviceset="GND" device=""/>
 <part name="R43" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C23" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D14" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D14" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY115" library="supply2" deviceset="GND" device=""/>
 <part name="R53" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C38" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D21" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D21" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY116" library="supply2" deviceset="GND" device=""/>
 <part name="R54" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C39" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D22" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D22" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY117" library="supply2" deviceset="GND" device=""/>
 <part name="R55" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C40" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D23" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D23" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY118" library="supply2" deviceset="GND" device=""/>
 <part name="R56" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C41" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D24" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D24" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY119" library="supply2" deviceset="GND" device=""/>
 <part name="R57" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C42" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D25" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D25" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY120" library="supply2" deviceset="GND" device=""/>
 <part name="R58" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C43" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D26" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D26" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY121" library="supply2" deviceset="GND" device=""/>
 <part name="R68" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C56" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D33" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D33" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY122" library="supply2" deviceset="GND" device=""/>
 <part name="R69" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C57" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D34" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D34" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY123" library="supply2" deviceset="GND" device=""/>
 <part name="R70" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C58" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D35" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D35" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY124" library="supply2" deviceset="GND" device=""/>
 <part name="R71" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C59" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D36" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D36" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY125" library="supply2" deviceset="GND" device=""/>
 <part name="R72" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C60" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D37" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D37" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY126" library="supply2" deviceset="GND" device=""/>
 <part name="R73" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C61" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D38" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D38" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY127" library="supply2" deviceset="GND" device=""/>
 <part name="R85" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C74" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D45" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D45" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY128" library="supply2" deviceset="GND" device=""/>
 <part name="R86" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C75" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D46" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D46" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY129" library="supply2" deviceset="GND" device=""/>
 <part name="R87" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C76" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D47" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D47" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY130" library="supply2" deviceset="GND" device=""/>
 <part name="R88" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C77" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D48" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D48" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY131" library="supply2" deviceset="GND" device=""/>
 <part name="R89" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C78" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D49" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D49" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="SUPPLY132" library="supply2" deviceset="GND" device=""/>
 <part name="R90" library="Parts" deviceset="R-US_" device="R0603" value="300"/>
 <part name="C79" library="resistor" deviceset="C-US" device="C0603K" value="1n"/>
-<part name="D50" library="diode" deviceset="DIODE-" device="SOD523" value="RB521S30T1G"/>
+<part name="D50" library="diode" deviceset="DIODE-" device="SOD523" value="NC"/>
 <part name="P+51" library="supply1" deviceset="+5V" device=""/>
 <part name="P+53" library="supply1" deviceset="+5V" device=""/>
 <part name="P+54" library="supply1" deviceset="+5V" device=""/>
@@ -19879,13 +19879,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY138" library="supply2" deviceset="GND" device=""/>
 <part name="C55" library="rcl" deviceset="C-US" device="C0603K" value="NC"/>
 <part name="SUPPLY143" library="supply2" deviceset="GND" device=""/>
-<part name="C13" library="rcl" deviceset="C-US" device="C0603K" value="0.1uF"/>
+<part name="C13" library="rcl" deviceset="C-US" device="C0603K" value="NC"/>
 <part name="SUPPLY144" library="supply2" deviceset="GND" device=""/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0603K" value="0.1uF"/>
+<part name="C11" library="rcl" deviceset="C-US" device="C0603K" value="NC"/>
 <part name="P+78" library="supply1" deviceset="+5V" device=""/>
 <part name="P+79" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY145" library="supply2" deviceset="GND" device=""/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0603K" value="0.1uF"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0603K" value="NC"/>
 <part name="P+80" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V26" library="supply1" deviceset="+3V3" device=""/>
 <part name="TCH0" library="Parts" deviceset="OSTVN12A150" device=""/>
